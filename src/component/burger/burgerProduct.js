@@ -1,0 +1,41 @@
+const Burgers = [
+        {
+            id: 1,
+            img: "https://chefbbq.ru/nuber/images/shop/product/aae8772e-f9a2-437a-a116-447282a0ea34/d06afb91-9dab-4ca9-b240-220622943cff.jpg",
+            title: "Гамбургер с говяжьей котлетой",
+            description: "(мясо гов,соус, салатые) ",
+            price:'150 cом'
+        }, {
+            id: 20,
+            img: "http://rosahotel.ru/filestore/productPhotos/biggest/p_ov8iw5c0oise.jpg",
+            title: "Гамбургер двойной с говяжьей котлетой",
+            description: "(мясо, гов)"
+            ,price:'250 cом'
+        }, {
+            id: 2,
+            description: "(мясо,гов,сыр,айсберг)",
+            title: "Чизбургер с говяжьей котлетой",
+            img: "https://resizer.mail.ru/p/dff14bf6-7dae-5459-b84c-910f93ee2b04/AAAcaTQTyAO1Mb3W6IgRoyAPXDOYJkKHrQQoRAtq_JgtRDtbzKz6pcLr1Rasqy1e2kvTtTBMp4TSm_xBc6Yq1uTDLIw.jpg"
+            ,price:'160 cом'
+        }, {
+            id: 3,
+            img: "https://grandkulinar.ru/uploads/posts/2019-07/1563630684_chizburger-s-dvojnoj-kotletoj.jpg",
+            title: "Чизбургер двойной с говяжьей котлетой",
+            description: "(мясо,гов)"
+            ,price:'270 cом'
+        }, {
+            id: 4,
+            img: "https://img.povar.ru/uploads/97/c1/ba/f7/burger_quotcezarquot-635278.jpg",
+            title: "(куриная грудка,огурцы,помидор,салат,айсберг )",
+            description: "Цезарь бургер"
+            ,price:'130 cом'
+        }, {
+            id: 5,
+            img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/48/be/44/a-juicy-burger.jpg?w=800&h=600&s=1",
+            title: "Dine бургер",
+            description: "(говяжий котлет,сыр ,помидор,соленые огурцы,лук крас)"
+            ,price:'170 cом'
+        },
+    ]
+    export default Burgers
+
