@@ -2,16 +2,16 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import savtrackt from './ZavrtactProduct';
 
-const as= savtrackt
+const as = savtrackt
 
 function Zavtract(props) {
     return (
-        <div>
+        <div className='m-2'>
             <h1>Завтрак</h1>
             {as.map(a=>{
             return(
                 <Card >
-                <Card.Img variant="top" src={a.img} />
+                <Card.Img variant="top"style={{padding:'7px'}} src={a.img} />
                 <Card.Body>
                     <Card.Title>{a.title}</Card.Title>
                     <Card.Text>{a.description}

@@ -28,7 +28,7 @@ const hrolly = [
             id: 5,
             title: "Шев-Токусен"
             ,price:'260 сом',
-            img:"https://www.gorodtaraz.kz/upload/000/u1/0/6/shef-tokusen-photo-normal.jpg",
+            img:"http://express-pizza.vn.ua/upload/resize_cache/iblock/abf/480_372_2/abfd4425e5ab7eed4ba3da293a77e9c5.jpg?154391533952302",
             description: "(угоры,сыр сливочный,авокадо,cоус терияки,кунжут)"
         }
     ]

@@ -8,12 +8,21 @@ const product = Burgers
 
 function Burger(props) {
     return (
-        <div>
+        <div className='m-2'>
             <h1>Гамбургеры</h1>
             {product.map(a=>(
   <Card >
-  <Card.Img variant="top" src={a.img} />
-  <Card.Body>
+    {/* <div className='images' style={{
+    backgroundImage: 'URL(' + a.img + ')',
+    backgroundSize:"cover ",
+    backgroundRepeat:"no-repeat",
+    backgroundPosition:"center",
+    backgroundAttachment:"fixed"
+ 
+
+  }}></div> */}
+  <Card.Img className='images' variant="top"style={{padding:'7px'}} src={a.img} />
+  <Card.Body >
     <Card.Title>{a.title}</Card.Title>
     <Card.Text>{a.description}
     <h2>{a.price}</h2>

@@ -6,13 +6,13 @@ const woki = woks
 
 function wok(props) {
     return (
-        <div>
+        <div className='m-2'>
             <Card>
                 
         <h1>
            Вок
         </h1>
-        <Image src='https://media.istockphoto.com/photos/mix-of-vegetables-fried-in-a-wok-picture-id1056690094'/>
+        <Image style={{padding:'7px'}} src='https://media.istockphoto.com/photos/mix-of-vegetables-fried-in-a-wok-picture-id1056690094'/>
         <Table striped bordered hover>
             <thead>
                 <tr>

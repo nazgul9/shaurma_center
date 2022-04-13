@@ -33,7 +33,7 @@ const grolly =[
             id: 6,
             title: "Темпура микс"
             ,price:'270 сом',
-            img:"https://www.tokyo-city.ru/goods/nabor_tempuramix_617fab0173812.jpg",
+            img:"https://cdn-irec.r-99.com/sites/default/files/imagecache/300o/product-images/437816/aEut8ZewVoYS8KxnGgfQ.jpg",
             description: "(лосось,угорь,авокадо,соус спайси)"
         }, {
             id: 7,

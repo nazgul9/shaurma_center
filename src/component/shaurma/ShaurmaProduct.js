@@ -60,28 +60,28 @@ const shaurma =[
             id:2,
             title:"Гамбургер из курицы",
             description:"мясо кур , салат, помидор ,огурцы",
-            img:"https://вкуснофф.рф/img/recepty/1758/big.jpg",
+            img:"https://www.maggi.ru/data/images/recept/img640x500/recept_2720_58kc.jpg",
             price:"100 сом"
         },
         {
             id:3,
             title:"Гамбургер из курицы двойной",
             description:"мясо кур , салат, помидор ,огурцы",
-            img:"https://вкуснофф.рф/img/recepty/1758/big.jpg",
+            img:"https://gippo.kz/wp-content/uploads/2020/10/IMG_3725-%D1%87%D0%B8%D0%B7%D0%B1%D1%83%D1%80%D0%B3%D0%B5%D1%80-%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B9-%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B0.jpg",
             price:"140 сом"
         },
         {
             id:4,
             title:"Гамбургер Ассорти",
             description:"мясо гов, сосиски, помидор ,огурцы",
-            img:"https://i2.wp.com/sushkin59.ru/wp-content/uploads/2018/07/ce7b1e3d4683d39af882ba10eb2ea04e.jpg?zoom=2.625&fit=500%2C500&ssl=1",
+            img:"https://img.freepik.com/free-photo/assorted-traditional-american-burgers-with-sauces-and-fries-on-a-wooden-blue-background_136595-18830.jpg",
             price:"120 сом"
         },
         {
             id:5,
             title:"Гамбургер двойной",
             description:"мясо гов 2х, салат, помидор, огурцы",
-            img:"https://i2.wp.com/sushkin59.ru/wp-content/uploads/2018/07/ce7b1e3d4683d39af882ba10eb2ea04e.jpg?zoom=2.625&fit=500%2C500&ssl=1",
+            img:"https://thumbs.dreamstime.com/b/%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B9-%D0%B3%D0%B0%D0%BC%D0%B1%D1%83%D1%80%D0%B3%D0%B5%D1%80-26247943.jpg",
             price:"140 сом"
         },
         {
@@ -143,11 +143,12 @@ const shaurma =[
             id:5,
             title:"Картофель фри",
             price:"80 сом",
-            img:"Картофель фри",
+            img:"https://og.ru/sites/default/files/styles/620x370/public/uploads/news/1060.jpg?itok=gCduWeiM",
         }, {
             id:6,
             title:"Картофель по-деревенной",
-            price:"100 сом",   img:"Картофель по-деревенной",
+            price:"100 сом",  
+             img:"https://st4.depositphotos.com/16806292/i/600/depositphotos_201221478-stock-photo-french-fries-sauce-wooden-board.jpg",
 
         },
         {

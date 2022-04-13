@@ -6,12 +6,12 @@ const roll = pizza
 
 function Pizza(props) {
     return (
-        <div>
+        <div className='m-2'>
            <h1>Пиццы</h1>
         {roll.map(a=>{
             return(
                 <Card >
-                <Card.Img variant="top" src={a.img} />
+                <Card.Img variant="top"style={{padding:'7px'}} src={a.img} />
                 <Card.Body>
                     <Card.Title>{a.title}</Card.Title>
                     <Card.Text>{a.description}

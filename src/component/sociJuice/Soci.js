@@ -1,15 +1,16 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
+import { Image, Table } from 'react-bootstrap';
 import soku from './SociProduct';
 
 const sok = soku
 
 function Soci(props) {
     return (
-        <div>
+        <div className='m-2'>
             <h1>
                Сок
             </h1>
+            <Image style={{padding:'7px'}} src='https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3138-6431-4135-b532-303539346463__smoothies-2253423_12.jpg'/>
             <Table striped bordered hover>
                 <thead>
                     <tr>

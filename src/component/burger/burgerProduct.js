@@ -15,7 +15,7 @@ const Burgers = [
             id: 2,
             description: "(мясо,гов,сыр,айсберг)",
             title: "Чизбургер с говяжьей котлетой",
-            img: "https://resizer.mail.ru/p/dff14bf6-7dae-5459-b84c-910f93ee2b04/AAAcaTQTyAO1Mb3W6IgRoyAPXDOYJkKHrQQoRAtq_JgtRDtbzKz6pcLr1Rasqy1e2kvTtTBMp4TSm_xBc6Yq1uTDLIw.jpg"
+            img: "https://cdn.gastery.com//dishes/b06633107c2373c29e4ab6d32035fe2b.png"
             ,price:'160 cом'
         }, {
             id: 3,

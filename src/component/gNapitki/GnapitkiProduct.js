@@ -1,5 +1,4 @@
-const Gnapitkis1 = {
-    Gnapitkis2 : [
+const Gnapitkis =[
         {
             id: 1,
             title: "Чай с малиной",
@@ -38,4 +37,4 @@ const Gnapitkis1 = {
             ,description: "(чайник)"
         }
     ]
-}
+export default Gnapitkis

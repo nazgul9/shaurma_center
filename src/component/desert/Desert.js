@@ -7,13 +7,13 @@ console.log(deserts);
 
 function Desert(props) {
     return (
-        <div>
+        <div className='m-2'>
             <h1>
                 Десерты
             </h1>
             {desert.map(a => (
                 <Card >
-                    <Card.Img variant="top" src={a.img} />
+                    <Card.Img className='images'style={{padding:'7px'}} variant="top" src={a.img} />
                     <Card.Body>
                         <Card.Title>{a.title}</Card.Title>
                         <Card.Text>{a.description}
