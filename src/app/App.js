@@ -51,7 +51,7 @@ function App(props) {
       <Route path="/" element={<Home />}>
       </Route>
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

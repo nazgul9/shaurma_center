@@ -9,7 +9,7 @@ const product = Burgers
 function Burger(props) {
     return (
         <div className='m-2'>
-            <h1>Гамбургеры</h1>
+            <h1 style={{position: 'fixed'}}>Гамбургеры</h1>
             {product.map(a=>(
   <Card >
     {/* <div className='images' style={{
