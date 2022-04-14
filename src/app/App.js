@@ -23,7 +23,7 @@ import QrCode from 'qrcode.react'
 function App(props) {
   return (
     <div>
-        <div style={{textAlign:"center"}}>
+        {/* <div style={{textAlign:"center"}}>
         <h1><br/>
         <QrCode
         id="abs"
@@ -31,7 +31,7 @@ function App(props) {
         value="https://teach.besoft.kg/kn-pizzburg"
         />
         </h1>
-      </div>
+      </div> */}
       <Routes>
         <Route path="/Burger" element={<Burger/>} />
         <Route path="/Desert" element={<Desert />} />
