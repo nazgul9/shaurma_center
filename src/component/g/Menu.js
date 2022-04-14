@@ -16,7 +16,7 @@ function Menu(props) {
 
             <Card className=' m-2 texth1' as={Link} to="/GNapit" style={{ borderRadius: "50px" }}><h1 >Горячии Напитки</h1></Card>
 
-            <Card className=' m-2 texth1' as={Link} to="/GRool" style={{ borderRadius: "50px" }}><h1 >Хорячий Роллы</h1></Card> 
+            <Card className=' m-2 texth1' as={Link} to="/GRool" style={{ borderRadius: "50px" }}><h1 >Горячий Роллы</h1></Card> 
 
              <Card className=' m-2 texth1' as={Link} to="/HRool" style={{ borderRadius: "50px" }}><h1 >Холодные Роллы</h1></Card>
 
@@ -36,7 +36,7 @@ function Menu(props) {
 
             <Card className=' m-2 texth1' as={Link} to="/Wok" style={{ borderRadius: "50px" }}><h1 >Вок</h1></Card>
 
-            <Card className=' m-2 texth1' as={Link} to="/Zavtract" style={{ borderRadius: "50px" }}><h1 >Завтракт</h1></Card>
+            <Card className=' m-2 texth1' as={Link} to="/Zavtract" style={{ borderRadius: "50px" }}><h1 >Завтрак</h1></Card>
 
         </div>
     );

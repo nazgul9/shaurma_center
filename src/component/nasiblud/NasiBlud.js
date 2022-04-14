@@ -7,7 +7,7 @@ import nasiblid from './NasiBludProduct';
 function NasiBlud(props) {
     return (
         <div className='m-2'>
-        <h1>Ролл</h1>
+        <h1>Блюда</h1>
         {roll.map(a=>{
             return(
                 <Card >

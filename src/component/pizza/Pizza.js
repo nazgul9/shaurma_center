@@ -7,7 +7,7 @@ const roll = pizza
 function Pizza(props) {
     return (
         <div className='m-2'>
-           <h1>Пиццы</h1>
+           <h1>Пицца</h1>
         {roll.map(a=>{
             return(
                 <Card >

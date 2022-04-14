@@ -7,10 +7,11 @@ const sok = sous
 function Sous(props) {
     return (
         <div className='m-2'>
-            <Card>
-        <h1>
+             <h1>
            Соyc
         </h1>
+            <Card>
+       
         <Image style={{padding:'7px'}} src='https://www.patee.ru/r/x6/0f/91/f7/960m.jpg'/>
         <Table striped bordered hover>
             <thead>

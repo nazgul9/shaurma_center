@@ -7,11 +7,12 @@ const woki = woks
 function wok(props) {
     return (
         <div className='m-2'>
-            <Card>
-                
-        <h1>
+            <h1>
            Вок
         </h1>
+            <Card>
+                
+        
         <Image style={{padding:'7px'}} src='https://media.istockphoto.com/photos/mix-of-vegetables-fried-in-a-wok-picture-id1056690094'/>
         <Table striped bordered hover>
             <thead>

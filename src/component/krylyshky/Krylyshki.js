@@ -9,7 +9,7 @@ function Krylyshki(props) {
         
         <div className='m-2'>
             
-        <h1>Ролл</h1>
+        <h1>Крылышки</h1>
         {roll.map(a=>{
             return(
                 <Card >

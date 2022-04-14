@@ -24,13 +24,13 @@ function App(props) {
   return (
     <div>
         <div style={{textAlign:"center"}}>
-        {/* <h1><br/>
+        <h1><br/>
         <QrCode
         id="abs"
-        value ="http://localhost:3000"
-        // value="https://teach.besoft.kg/kn-pizzburg"
+        // value ="http://localhost:3000"
+        value="https://teach.besoft.kg/kn-pizzburg"
         />
-        </h1> */}
+        </h1>
       </div>
       <Routes>
         <Route path="/Burger" element={<Burger/>} />
@@ -51,7 +51,7 @@ function App(props) {
       <Route path="/" element={<Home />}>
       </Route>
     </Routes>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   );
 }

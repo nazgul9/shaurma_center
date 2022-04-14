@@ -4,20 +4,21 @@ import React from 'react';
 function Footer(props) {
     return (
         <div className=' footers m-2 p-2'>
-            <div className='justify-content: center;'>
-                <span >
+            <div className='m-3 text-center '>
+                
 
-                    <a href="https://www.instagram.com/dine_osh/" class="text-white">
+                    <a href="https://www.instagram.com/dine_osh/" class="text-white m-2">
                         <i class="fa fa-2x fa-fw fa-instagram "></i></a>
-                    <a href="https://www.phone.com/+996 (559)-515-600/" class="text-white">
+                    <a href="tel:+996559-515-600" class="text-white">
                         <i class="fa fa-2x fa-fw fa-phone "></i></a>
                     <a href="https://www.facebook.com/dine_osh/" class="text-white">
                         <i class="fa fa-2x fa-fw fa-facebook "></i></a>
-                </span>
-                <span >
+               
+                {/* <div className='text-center' >
+                <span className='f11'>
                     <p>+996 (559)-515-600</p>
                     <p>+996 (770)-000-180</p>
-                </span>
+                </span></div> */}
             </div>
            
             <div className='text-center'>@dine_osh</div>

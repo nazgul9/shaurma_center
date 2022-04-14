@@ -3,7 +3,7 @@ const Salats = [
             id: 1,
             title: "Колхозный",
             price: '130 сом'
-            ,img:"https://img.youtube.com/vi/0puHoyAUUoA/0.jpg",
+            ,img:"https://static.ruvita.ru/store/product/365x365_bb2adc197c7bc41aeddfce9f9d299800.jpg",
              description: "(200гр)"
 
         }, {

@@ -10,7 +10,7 @@ function Soci(props) {
             <h1>
                Сок
             </h1>
-            <Image style={{padding:'7px'}} src='https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3138-6431-4135-b532-303539346463__smoothies-2253423_12.jpg'/>
+            <Image style={{padding:'7px',height:'300px', width:'100%'}} src='https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3138-6431-4135-b532-303539346463__smoothies-2253423_12.jpg'/>
             <Table striped bordered hover>
                 <thead>
                     <tr>

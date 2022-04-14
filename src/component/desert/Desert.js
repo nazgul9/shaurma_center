@@ -3,13 +3,12 @@ import { Card } from 'react-bootstrap';
 import deserts from './DesertProduct'
 
 const desert = deserts
-console.log(deserts);
 
 function Desert(props) {
     return (
         <div className='m-2'>
             <h1>
-                Десерты
+                Десерт
             </h1>
             {desert.map(a => (
                 <Card >
