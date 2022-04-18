@@ -1,71 +1,48 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../component/g/Home'
-import Burger from '../component/burger/Burger'
-import Desert from '../component/desert/Desert'
-import Napitki from '../component/napitki/Napitki'
-import GNapit from '../component/gNapitki/GNapit'
-import GRool from '../component/gRoll/GRool'
-import HRool from '../component/hrool/HRool'
-import Krylyshki from '../component/krylyshky/Krylyshki'
-import NasiBlud from '../component/nasiblud/NasiBlud'
-import Pizza from '../component/pizza/Pizza'
-import Salad from '../component/salad/Salad'
-import Shaurma from '../component/shaurma/Shaurma'
-import Soci from '../component/sociJuice/Soci'
-import Sous from '../component/sous/Sous'
-import Wok from '../component/wok/Wok'
-import Zavtract from '../component/zavtract/Zavtract'
-import Footer from './Footer';
 
-import QrCode from 'qrcode.react'
+import Home from './Home'
+
+import Bluydas from '../components/BLUYDA/Bluydas'
+import Deserts from '../components/desert/Deserts'
+import Hlep from '../components/HLEP/Hlep'
+import Kofes from '../components/kofe/Kofes'
+import Kokteils from '../components/kokteil/Kokteils'
+import Limonats from '../components/limonat/Limonats'
+import Napitkis from '../components/napitki/Napitkis'
+import Pizzas from '../components/pizza/Pizzas'
+import Ryss from '../components/rys/Ryss'
+import Rollys from '../components/ROLLY/Rollys'
+import Salats from '../components/salat/Salats'
+import Savtraks from '../components/savtrak/Savtraks'
+import Shaurmas from '../components/SHAURMA/Shaurmas'
+import Burgers from '../components/burger/Burgers';
+import Footer from './footer';
 
 function App(props) {
   return (
-    <div>
-        {/* <div style={{textAlign:"center"}}>
-        <h1><br/>
-        <QrCode
-        id="abs"
-        // value ="http://localhost:3000"
-        value="https://teach.besoft.kg/kn-pizzburg"
-        />
-        </h1>
-      </div> */}
+    <div className=' m-2 p-2'> 
+    
       <Routes>
-        <Route path="/Burger" element={<Burger/>} />
-        <Route path="/Desert" element={<Desert />} />
-        <Route path="/Napitki" element={<Napitki />} />
-        <Route path='/GNapit' element={<GNapit/>}/>
-        <Route path="/GRool" element={<GRool />} />
-        <Route path="/HRool" element={<HRool />} />
-        <Route path="/Krylyshki" element={<Krylyshki />} />
-        <Route path="/NasiBlud" element={<NasiBlud />} />
-        <Route path="/Pizza" element={<Pizza />} />
-        <Route path="/Salad" element={<Salad />} />
-        <Route path="/Shaurma" element={<Shaurma />} />
-        <Route path="/Soci" element={<Soci />} />
-        <Route path="/Sous" element={<Sous />} />
-        <Route path="/Wok" element={<Wok />} />
-        <Route path="/Zavtract" element={<Zavtract />} />
-      <Route path="/" element={<Home />}>
-      </Route>
-    </Routes>
-    <Footer/>
+        <Route path="/" element={<Home />} />
+        <Route path="/Bluydas" element={<Bluydas />} />
+        <Route path='/Burgers' element={<Burgers/>}/>
+        <Route path="/Deserts" element={<Deserts />} />
+        <Route path="/Hlep" element={<Hlep />} />
+        <Route path="/Kofes" element={<Kofes />} />
+        <Route path="/Kokteils" element={<Kokteils />} />
+        <Route path="/Limonats" element={<Limonats />} />
+        <Route path="/Napitkis" element={<Napitkis />} />
+        <Route path="/Pizzas" element={<Pizzas />} />
+        <Route path="/Ryss" element={<Ryss />} />
+        <Route path="/Rollys" element={<Rollys />} />
+        <Route path="/Salats" element={<Salats />} />
+        <Route path="/Savtraks" element={<Savtraks />} />
+        <Route path="/Shaurmas" element={<Shaurmas />} />
+      </Routes>
+<Footer/>
     </div>
   );
 }
 
 export default App;
-
-// import React from 'react';
-
-// function App(props) {
-//   return (
-//     <div>
-//       w
-//     </div>
-//   );
-// }
-
-// export default App;
