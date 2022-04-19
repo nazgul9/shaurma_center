@@ -31,7 +31,7 @@ const bluyda = [
             id: 6,
             title: "ФАХИТОС С КУРИЦЕЙ"
             ,price:'290 cом'
-            ,description: "1 порц",img:'https://alimero.ru/uploads/images/20/74/56/2019/05/09/3b5c3d.jpg'
+            ,description: "1 порц",img:'https://e2.edimdoma.ru/data/photos/0021/9542/219542-ed4_wide.jpg?1628820905'
         }, {
             id: 7,
             title:"ТЕЛЯТИНА С ГРИБАМИ"
@@ -41,7 +41,7 @@ const bluyda = [
             id: 8,
             title:"КОТЛЕТЫ С ПЮРЕ"
             ,price:'130 cом'
-            ,description: "1 порц",img:'https://www.photorecept.ru/wp-content/uploads/2021/04/kotlety-s-pjure-941x1300.jpg'
+            ,description: "1 порц",img:'https://ont.by/static/article/middle/index/B3plvPxWI4jTrAyP.jpg'
         }, {
             id: 9,
             title:"ГОВЯДИНА С ОВОЩАМИ"
@@ -91,17 +91,17 @@ const bluyda = [
             id: 18,
             title:"ВАРЕНИКИ С КАРТОШКОЙ"
             ,price:'90 cом'
-            ,description: "1 порц",img:'https://www.gastronom.ru/binfiles/images/20170208/b2faa08a.jpg'
+            ,description: "1 порц",img:'https://i.pinimg.com/originals/22/ca/f7/22caf718e9dca3dc079898bbdb0e70fe.png'
         }, {
             id: 19,
             title:"ВАРЕНИКИ С ТВОРОГОМ"
             ,price:'90 cом'
-            ,description: "1 порц",img:'https://www.gastronom.ru/binfiles/images/20150923/b6f5eaec.jpg'
+            ,description: "1 порц",img:'https://img.povar.ru/main/e1/06/52/16/vareniki_s_tvorogom_solenie-284207.jpg'
         }, {
             id: 20,
             title:"МЯСО ПО-КАЗАХСКИ"
             ,price:'160 cом'
-            ,description: "1 порц",img:'https://img.povar.ru/main/24/c7/7c/da/myaso_po-kazahski-55714.jpg'
+            ,description: "1 порц",img:'https://kuhnyasad.ru/wp-content/uploads/2018/12/%D0%91%D0%B5%D1%88%D0%B1%D0%B0%D1%80%D0%BC%D0%B0%D0%BA-600x600.jpg'
         }, {
             id: 21,
             title:"ПЕЛЬМЕНИ С КУРИЦЕЙ"

@@ -8,7 +8,7 @@ const ryss =  [
             id: 2,
             title: "КАРТОФЕЛЬ ФРИ"
             ,price:'70 cом'
-            ,img:'https://images.cdn.inmyroom.ru/inmyroom/thumb/940x600/jpg:85/uploads/food_recipe/teaser/d2/d292/jpg_1000_d292b132-764c-4743-b82a-ec5a4a2b0421.jpg?sign=ef1992dbd51663e552acdef96ba45d22f3a04ea6e3f84a1c22dd4515cff365d7'
+            ,img:'https://www.chefmarket.ru/blog/wp-content/uploads/2021/01/fast-food--2000x1200.jpg'
         }, {
             id: 3,
             title:"КАРТОФЕЛЬНОЕ ПЮРЕ"

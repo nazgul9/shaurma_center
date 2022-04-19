@@ -40,7 +40,7 @@ function Menu() {
                 </Col>
                 <Col md={6}>
                     <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Limonats">
-                        <h2 >Лимонат</h2>
+                        <h2 >Лимонад</h2>
                     </Card>
                 </Col>
                 <Col md={6}>
