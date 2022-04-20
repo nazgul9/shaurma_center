@@ -1,16 +1,15 @@
 import React from 'react';
-import deserts from './DesertProduct';
+import deserts from './desertPRoduct';
 import Cards from '../../app/Cards'
  
 const desert = deserts
 
-function Deserts(props) {
+function Desert(props) {
     return (
         <div>
-            <h1>Десерт</h1>
             <Cards name={desert}/>
         </div>
     );
 }
 
-export default Deserts;
+export default Desert;

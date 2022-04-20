@@ -8,74 +8,37 @@ function Menu() {
         <div className=' m-2 p-2 ' >
             <div className='text-center'><h1>МЕНЮ</h1></div>
             <Row>
+               
                 <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Bluydas" >
-                        <h2 >Блюда</h2>
-                    </Card>
-                </Col>
-                <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Burgers">
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Burger">
                         <h2 >Бургер</h2>
                     </Card>
                 </Col>
                 <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Deserts">
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Desert">
                         <h2 >Десерт</h2>
                     </Card>
                 </Col>
+               
                 <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Hlep">
-                        <h2 >Хлеб</h2>
-                    </Card>
-                </Col>
-                <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Kofes">
-                        <h2 >Кофе</h2>
-                    </Card>
-                </Col>
-                <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Kokteils">
-                        <h2 >Коктейл</h2>
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Gnapitki">
+                        <h2 >Напитки 1</h2>
                     </Card>
                 </Col>
                 <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Limonats">
-                        <h2 >Лимонад</h2>
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/HNapitki">
+                        <h2 >Напитки 2</h2>
                     </Card>
                 </Col>
-                <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Napitkis">
-                        <h2 >Напитки</h2>
-                    </Card>
-                </Col>
-                <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Pizzas">
-                        <h2 >Пицца</h2>
-                    </Card>
-                </Col>
-                <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Rollys">
-                        <h2 >Ролл</h2>
-                    </Card>
-                </Col>
-                <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Ryss">
-                        <h2 >Рис</h2>
-                    </Card>
-                </Col>
-                <Col md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Salats">
-                        <h2 >Салат</h2>
-                    </Card>
-                </Col>
-                <Col md={6} >
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Savtraks">
-                        <h2 >Завтрак</h2>
+                
+                <Col  md={6}>
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Shaurma">
+                        <h2 >Шаурма</h2>
                     </Card>
                 </Col>
                 <Col  md={6}>
-                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Shaurmas">
-                        <h2 >Шаурма</h2>
+                    <Card className=' m-2 texth1' style={{ borderRadius: "50px" }} as={Link} to="/Sous">
+                        <h2 >Соус</h2>
                     </Card>
                 </Col>
             </Row>
