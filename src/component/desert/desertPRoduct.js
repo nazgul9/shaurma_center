@@ -2,37 +2,38 @@ const deserts =[
     {
         id:1,
         title:"Красный бархат",
-        price:" 95 сом",
-        img:""
+        price:" 100 сом",
+        img:"../../img/ff.jpeg"
     },{
         id:2,
         title:"Итальянский",
-        price:" 95 сом",
-        img:""
+        price:" 100 сом",
+        img:"../../img/Итальянский.jpeg"
     },
     {
         id:3,
         title:"Чизкейк",
-        price:" 85 сом",
-        img:""
+        price:" 90 сом",
+         img:"../../img/чизкейк.jpeg"
     },
     {
         id:4,
         title:"Сникерс",
-        price:"85 сом",
-        img:""
+        price:"90 сом",
+        img:"../../img/снк.jpeg"
     },
     {
         id:5,
         title:"Медовый шок",
-        price:"85 сом",
-        img:""
+        price:"90 сом",
+        img:"../../img/Медовый-шок.jpeg"
+      
     },
     {
         id:6,
         title:"Медовый ",
-        price:"75 сом",
-        img:""
+        price:"80 сом",
+        img:"../../img/Медовый.jpeg"
     },
     
 ]

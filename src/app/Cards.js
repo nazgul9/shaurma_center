@@ -7,11 +7,12 @@ function Cards(props) {
             {props.name.map(n => (
                 <>
                 <div>   
-                    <Card style={{width:"18rem", margin:"5px",}} >
-                    <Card.Img style={{width:"18rem",height:"16rem"}} variant="top" src={n.img} />
+                    <Card style={{ margin:"5px",padding:'10px'}} >
+                    <Card.Img  className={'a1'} style={{height:"250px"}} variant="top" src={n.img} />
                     <Card.Body>
                         <Card.Title >{n.title}</Card.Title>
-                        <Card.Text>{n.description}
+                        <Card.Text>
+                            <p className='overflow-ellipsis'>{n.description}</p>
                             <h2>{n.price}</h2>
                         </Card.Text>
                     </Card.Body>

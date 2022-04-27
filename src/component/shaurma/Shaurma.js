@@ -7,6 +7,7 @@ const shaurma =shaurmas
 function Shaurma(props) {
     return (
         <div>
+            <h1>ШАУРМА</h1>
          <Cards name={shaurma} />   
         </div>
     );

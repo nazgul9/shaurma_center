@@ -7,6 +7,7 @@ const desert = deserts
 function Desert(props) {
     return (
         <div>
+             <h1>ДЕСЕРТ</h1>
             <Cards name={desert}/>
         </div>
     );
